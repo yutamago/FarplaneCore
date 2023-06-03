@@ -43,13 +43,16 @@ namespace Farplane.FFX.EditorPanels.Aeons
         private int _characterIndex = -1;
 
         private static readonly Tuple<AppTheme, Accent> currentStyle = ThemeManager.DetectAppStyle(Application.Current);
-        private readonly Brush _trueAbilityBrush = new SolidColorBrush((Color)currentStyle.Item1.Resources["BlackColor"]);
+
+        private readonly Brush _trueAbilityBrush =
+            new SolidColorBrush((Color)currentStyle.Item1.Resources["BlackColor"]);
+
         private readonly Brush _falseAbilityBrush = new SolidColorBrush((Color)currentStyle.Item1.Resources["Gray2"]);
 
         public AeonAbilities()
         {
             InitializeComponent();
-            foreach(var tabItem in TabAbilities.Items)
+            foreach (var tabItem in TabAbilities.Items)
                 ControlsHelper.SetHeaderFontSize((TabItem)tabItem, 14);
 
             TabSkills.Content = _gridSkill;
@@ -67,7 +70,7 @@ namespace Farplane.FFX.EditorPanels.Aeons
             _gridWhiteMagic.ShowScrollBar = false;
             _gridBlackMagic.ShowScrollBar = false;
         }
-        
+
         private void ButtonSkill_Click(int buttonIndex)
         {
             ToggleSkill(AbilityType.Skill, buttonIndex);
@@ -114,7 +117,7 @@ namespace Farplane.FFX.EditorPanels.Aeons
                 default:
                     return;
             }
-            
+
             Party.ToggleSkillFlag(_characterIndex, skill.BitOffset);
         }
 
