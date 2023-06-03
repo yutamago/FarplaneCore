@@ -1,15 +1,15 @@
-﻿//css_reference "..\bin\Debug\farplane.exe";
+﻿//css_reference "..\bin\Debug\farplaneCore.exe";
 using System;
 using System.Linq;
 using System.Windows;
 
-using Farplane;
-using Farplane.Common;
-using Farplane.FarplaneMod;
-using Farplane.FFX;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore;
+using FarplaneCore.Common;
+using FarplaneCore.FarplaneMod;
+using FarplaneCore.FFX;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Memory;
 
 public class FFX2BreakHPLimit : IFarplaneMod
 {

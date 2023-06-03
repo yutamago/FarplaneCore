@@ -17,17 +17,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.Common.Controls;
-using Farplane.Common.Dialogs;
-using Farplane.FFX;
-using Farplane.FFX2;
-using Farplane.Properties;
+using ControlzEx.Theming;
+using FarplaneCore.Common;
 using MahApps.Metro;
 using MahApps.Metro.Controls;
-using Farplane.Memory;
+using FarplaneCore.Common.Controls;
+using FarplaneCore.Common.Dialogs;
+using FarplaneCore.FFX;
+using FarplaneCore.FFX2;
+using FarplaneCore.Memory;
+using FarplaneCore.Properties;
 
-namespace Farplane
+namespace FarplaneCore
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -51,10 +52,10 @@ namespace Farplane
             try
             {
                 // Load app theme and accent
-                var currentTheme = ThemeManager.GetAppTheme(Settings.Default.AppTheme);
-                var currentAccent = ThemeManager.GetAccent(Settings.Default.AppAccent);
+                // var currentTheme = ThemeManager.GetAppTheme(Settings.Default.AppTheme);
+                // var currentAccent = ThemeManager.GetAccent(Settings.Default.AppAccent);
 
-                ThemeManager.ChangeAppStyle(Application.Current, currentAccent, currentTheme);
+                // ThemeManager.ChangeAppStyle(Application.Current, currentAccent, currentTheme);
             }
             catch
             {
@@ -64,10 +65,10 @@ namespace Farplane
 
                 Settings.Default.Save();
 
-                var currentTheme = ThemeManager.GetAppTheme(Settings.Default.AppTheme);
-                var currentAccent = ThemeManager.GetAccent(Settings.Default.AppAccent);
+                // var currentTheme = ThemeManager.GetAppTheme(Settings.Default.AppTheme);
+                // var currentAccent = ThemeManager.GetAccent(Settings.Default.AppAccent);
 
-                ThemeManager.ChangeAppStyle(Application.Current, currentAccent, currentTheme);
+                // ThemeManager.ChangeAppStyle(Application.Current, currentAccent, currentTheme);
             }
             
             InitializeComponent();

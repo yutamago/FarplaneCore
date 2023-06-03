@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.Values
+namespace FarplaneCore.FFX.Values
 {
     public class BattleEntity
     {

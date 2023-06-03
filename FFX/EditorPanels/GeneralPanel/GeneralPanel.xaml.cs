@@ -12,11 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Values;
 
-namespace Farplane.FFX.EditorPanels.GeneralPanel
+namespace FarplaneCore.FFX.EditorPanels.GeneralPanel
 {
     /// <summary>
     /// Interaction logic for GeneralPanel.xaml

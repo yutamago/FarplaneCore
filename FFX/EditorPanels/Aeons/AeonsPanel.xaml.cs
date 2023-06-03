@@ -12,10 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.FFX.Data;
+using FarplaneCore.FFX.Data;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.Aeons
+namespace FarplaneCore.FFX.EditorPanels.Aeons
 {
     /// <summary>
     /// Interaction logic for AeonsPanel.xaml
@@ -32,7 +32,7 @@ namespace Farplane.FFX.EditorPanels.Aeons
         {
             InitializeComponent();
             foreach(var item in TabAeon.Items)
-                ControlsHelper.SetHeaderFontSize((TabItem)item, 14);
+                HeaderedControlHelper.SetHeaderFontSize((TabItem)item, 14);
             UpdateTabsEvent += () => Refresh();
         }
 

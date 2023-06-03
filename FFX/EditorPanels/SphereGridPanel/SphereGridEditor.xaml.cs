@@ -1,9 +1,9 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using Farplane.Common;
-using Farplane.FFX.Data;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
 
-namespace Farplane.FFX.EditorPanels.SphereGridPanel
+namespace FarplaneCore.FFX.EditorPanels.SphereGridPanel
 {
     /// <summary>
     ///     Interaction logic for SphereGridEditor.xaml

@@ -11,10 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Farplane.FFX2.Values;
+using FarplaneCore.FFX2.Values;
 using MahApps.Metro.Controls;
 
-namespace Farplane.Common.Dialogs
+namespace FarplaneCore.Common.Dialogs
 {
     /// <summary>
     /// Interaction logic for CommandSelectDialog.xaml

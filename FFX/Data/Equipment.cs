@@ -4,9 +4,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Farplane.Memory;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.Data
+namespace FarplaneCore.FFX.Data
 {
     public static class Equipment
     {

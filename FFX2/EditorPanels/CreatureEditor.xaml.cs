@@ -12,11 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.Memory;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX2.EditorPanels
+namespace FarplaneCore.FFX2.EditorPanels
 {
     /// <summary>
     /// Interaction logic for CreatureEditor.xaml
@@ -46,7 +46,7 @@ namespace Farplane.FFX2.EditorPanels
             Refresh();
 
             foreach (TabItem tabControl in CreatureTab.Items)
-                ControlsHelper.SetHeaderFontSize(tabControl, 18);
+                HeaderedControlHelper.SetHeaderFontSize(tabControl, 18);
         }
 
         public void Refresh()

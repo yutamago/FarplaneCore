@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farplane.FFX2
+namespace FarplaneCore.FFX2
 {
     public static class Cheats
     {

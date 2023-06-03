@@ -6,14 +6,14 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
-using Farplane.Common;
-using Farplane.Common.Dialogs;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.Common.Dialogs;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Memory;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.EquipmentPanel
+namespace FarplaneCore.FFX.EditorPanels.EquipmentPanel
 {
     /// <summary>
     ///     Interaction logic for EquipmentPanel.xaml

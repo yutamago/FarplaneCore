@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Farplane
+namespace FarplaneCore
 {
     /// <summary>
     /// Interaction logic for App.xaml

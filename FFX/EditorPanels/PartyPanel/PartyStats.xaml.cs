@@ -3,11 +3,11 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.EditorPanels.PartyPanel
+namespace FarplaneCore.FFX.EditorPanels.PartyPanel
 {
     /// <summary>
     /// Interaction logic for PartyStats.xaml

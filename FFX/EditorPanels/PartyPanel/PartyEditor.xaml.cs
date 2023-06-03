@@ -1,7 +1,7 @@
 ﻿using System.Windows.Controls;
-using Farplane.FFX.Values;
+using FarplaneCore.FFX.Values;
 
-namespace Farplane.FFX.EditorPanels.PartyPanel
+namespace FarplaneCore.FFX.EditorPanels.PartyPanel
 {
     /// <summary>
     /// Interaction logic for PartyEditor.xaml

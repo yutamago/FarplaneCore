@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farplane.FFX
+namespace FarplaneCore.FFX
 {
 	public static class Offsets
 	{

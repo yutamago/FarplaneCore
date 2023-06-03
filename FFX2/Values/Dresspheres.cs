@@ -1,4 +1,4 @@
-﻿namespace Farplane.FFX2.Values
+﻿namespace FarplaneCore.FFX2.Values
 {
 	public static class Dresspheres
 	{

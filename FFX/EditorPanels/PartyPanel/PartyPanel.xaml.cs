@@ -1,8 +1,8 @@
 ﻿using System.Windows.Controls;
-using Farplane.FFX.Values;
+using FarplaneCore.FFX.Values;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.PartyPanel
+namespace FarplaneCore.FFX.EditorPanels.PartyPanel
 {
     /// <summary>
     /// Interaction logic for PartyPanel.xaml
@@ -16,7 +16,7 @@ namespace Farplane.FFX.EditorPanels.PartyPanel
         {
             InitializeComponent();
             foreach(var tab  in TabPartySelect.Items)
-                ControlsHelper.SetHeaderFontSize((TabItem)tab, 14);
+                HeaderedControlHelper.SetHeaderFontSize((TabItem)tab, 14);
             Refresh();
         }
 

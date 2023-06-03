@@ -42,7 +42,7 @@ using Microsoft.Win32.SafeHandles;
 //      IntPtr pAddr = _sigScan.FindPattern(new byte[]{ 0xFF, 0xFF, 0xFF, 0xFF, 0x51, 0x55, 0xFC, 0x11 }, "xxxx?xx?", 12); 
 // 
 // ---------------------------------------------------------------------------------------- 
-namespace Farplane.Memory
+namespace FarplaneCore.Memory
 {
     public class SigScan
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farplane.Common
+namespace FarplaneCore.Common
 {
     public static class BitHelper
     {

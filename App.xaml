@@ -1,21 +1,23 @@
-﻿<Application x:Class="Farplane.App"
+﻿<Application x:Class="FarplaneCore.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Farplane"
+             xmlns:local="clr-namespace:FarplaneCore"
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
              xmlns:actions="clr-namespace:MahApps.Metro.Actions;assembly=MahApps.Metro"
              xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
-             StartupUri="MainWindow.xaml">
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+             StartupUri="MainWindow.xaml"
+>
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <!-- <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" /> -->
                 <!-- Accent and AppTheme setting -->
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <!-- <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" /> -->
+                <!-- <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" /> -->
             </ResourceDictionary.MergedDictionaries>
             <DataTemplate x:Key="DonateFlyoutHeader">
                 <StackPanel Orientation="Horizontal" Margin="10" >
@@ -23,11 +25,11 @@
                         <Button.Resources>
                             <SolidColorBrush x:Key="BlackBrush" Color="White" />
                         </Button.Resources>
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="Click">
-                                <actions:SetFlyoutOpenAction TargetObject="{Binding RelativeSource={RelativeSource AncestorType={x:Type controls:Flyout}}}" Value="False" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
+                        <b:Interaction.Triggers>
+                            <b:EventTrigger EventName="Click">
+                                <!-- <actions:SetFlyoutOpenAction TargetObject="{Binding RelativeSource={RelativeSource AncestorType={x:Type controls:Flyout}}}" Value="False" /> -->
+                            </b:EventTrigger>
+                        </b:Interaction.Triggers>
                     </Button>
                     <TextBlock Text="{Binding}" x:Name="PART_BackButton" FontSize="20" Margin="15,0,0,0" VerticalAlignment="Center"/>
                 </StackPanel>

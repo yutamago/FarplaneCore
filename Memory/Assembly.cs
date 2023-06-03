@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Binarysharp.MemoryManagement;
 
-namespace Farplane.Memory
+namespace FarplaneCore.Memory
 {
     public static partial class GameMemory
     {

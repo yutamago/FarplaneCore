@@ -13,11 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.EditorPanels.Aeons
+namespace FarplaneCore.FFX.EditorPanels.Aeons
 {
     /// <summary>
     /// Interaction logic for PartyStats.xaml

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Farplane.Common
+namespace FarplaneCore.Common
 {
     public class Error
     {

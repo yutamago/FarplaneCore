@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.Common.Dialogs;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.Common.Dialogs;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.BlitzballPanel
+namespace FarplaneCore.FFX.EditorPanels.BlitzballPanel
 {
     /// <summary>
     /// Interaction logic for BlitzballTeamEditor.xaml
@@ -37,7 +37,7 @@ namespace Farplane.FFX.EditorPanels.BlitzballPanel
             for (int i = 0; i < BlitzballValues.Teams.Length - 1; i++)
             {
                 var teamTab = new TabItem() {Header = BlitzballValues.Teams[i].Name};
-                ControlsHelper.SetHeaderFontSize(teamTab, 16);
+                HeaderedControlHelper.SetHeaderFontSize(teamTab, 16);
                 TabTeam.Items.Add(teamTab);
             }
 

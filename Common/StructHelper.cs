@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Farplane.FFX.Data;
+using FarplaneCore.FFX.Data;
 
-namespace Farplane.Common
+namespace FarplaneCore.Common
 {
     public static class StructHelper
     {

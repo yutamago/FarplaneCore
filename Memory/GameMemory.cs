@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 using Binarysharp.MemoryManagement;
-using Farplane.Properties;
+using FarplaneCore.Properties;
 using ThreadState = System.Threading.ThreadState;
 
-namespace Farplane.Memory
+namespace FarplaneCore.Memory
 {
     public static partial class GameMemory
     {
@@ -93,7 +93,7 @@ namespace Farplane.Memory
                 // No matching hash
                 Console.WriteLine("Hash: " + stringHash);
                 var proceed = MessageBox.Show("The selected process does not appear to match any known compatible processes.\n\n" +
-                                              "Farplane will attempt to calculate offsets automatically, but proceeding " +
+                                              "FarplaneCore will attempt to calculate offsets automatically, but proceeding " +
                                               "may cause errors or cause the game to crash. Now is a good time to make a " +
                                               "backup of your saved games!\n\n" +
                                               "Are you sure you wish to continue?", "Unknown process error",

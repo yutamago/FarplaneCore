@@ -4,12 +4,12 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX
+namespace FarplaneCore.FFX
 {
     internal static class Cheats
     {

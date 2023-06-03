@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Farplane.FFX2.EditorPanels.Party
+namespace FarplaneCore.FFX2.EditorPanels.Party
 {
     /// <summary>
     /// Interaction logic for PartyPanel.xaml

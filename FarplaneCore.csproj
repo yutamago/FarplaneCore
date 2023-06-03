@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <RootNamespace>FarplaneCore</RootNamespace>
+    <Platforms>x86</Platforms>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Farplane_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windows.Design.Extensibility, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mods\FFX-SeymourInParty.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Mods\FFX-AutoCamera.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mods\FFX-BreakHPLimit.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Mods\FFX-BreakDamageLimit.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Mods\FFX-HardBattle.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Mods\FFX2-BreakHPLimit.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Farplane_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FFX\Resources\MenuIcons\equip_0_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_0_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_1_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_1_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_2_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_2_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_3_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_3_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_4_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_4_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_5_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_5_1.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_6_0.png" />
+    <Resource Include="FFX\Resources\MenuIcons\equip_6_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Farplane_Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\shrink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fasm.NET.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Farplane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\showall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ControlzEx" Version="4.4.0" />
+    <PackageReference Include="Fasm.NET" Version="1.70.03" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MemorySharp" Version="1.2.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.VisualStudio.DesignTools.Extensibility" Version="17.5.33428.366" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Mods\FFX-AutoCamera.cs" />
+    <Compile Remove="Mods\FFX-BreakDamageLimit.cs" />
+    <Compile Remove="Mods\FFX-BreakHPLimit.cs" />
+    <Compile Remove="Mods\FFX-HardBattle.cs" />
+    <Compile Remove="Mods\FFX-SeymourInParty.cs" />
+    <Compile Remove="Mods\FFX2-BreakHPLimit.cs" />
+  </ItemGroup>
+</Project>

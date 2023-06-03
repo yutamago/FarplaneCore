@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.FFX2.Values;
+using FarplaneCore.FFX2.Values;
 
-namespace Farplane.FFX2.EditorPanels
+namespace FarplaneCore.FFX2.EditorPanels
 {
     /// <summary>
     /// Interaction logic for GarmentGridEditor.xaml

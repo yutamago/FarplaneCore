@@ -1,4 +1,4 @@
-﻿//css_reference "..\bin\Debug\farplane.exe";
+﻿//css_reference "..\bin\Debug\farplaneCore.exe";
 using System;
 using System.Linq;
 using System.Windows;

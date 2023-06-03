@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Farplane.FFX.EditorPanels.SkillEditorPanel
+namespace FarplaneCore.FFX.EditorPanels.SkillEditorPanel
 {
     /// <summary>
     /// Interaction logic for SkillDataPanel.xaml

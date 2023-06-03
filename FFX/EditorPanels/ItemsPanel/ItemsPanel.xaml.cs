@@ -4,14 +4,15 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using Farplane.Common;
-using Farplane.Common.Controls;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using ControlzEx.Theming;
+using FarplaneCore.Common;
+using FarplaneCore.Common.Controls;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Memory;
 using MahApps.Metro;
 
-namespace Farplane.FFX.EditorPanels.ItemsPanel
+namespace FarplaneCore.FFX.EditorPanels.ItemsPanel
 {
     /// <summary>
     /// Interaction logic for ItemsPanel.xaml
@@ -44,9 +45,9 @@ namespace Farplane.FFX.EditorPanels.ItemsPanel
         private bool[] _keyItemState;
         private bool[] _alBhedState;
 
-        private static readonly Tuple<AppTheme, Accent> currentStyle = ThemeManager.DetectAppStyle(Application.Current);
-        private readonly Brush _trueKeyItemBrush = new SolidColorBrush((Color)currentStyle.Item1.Resources["BlackColor"]);
-        private readonly Brush _falseKeyItemBrush = new SolidColorBrush((Color)currentStyle.Item1.Resources["Gray2"]);
+        private static readonly Theme currentStyle = ThemeManager.Current.DetectTheme(Application.Current);
+        private readonly Brush _trueKeyItemBrush = new SolidColorBrush(Colors.Black);
+        private readonly Brush _falseKeyItemBrush = new SolidColorBrush(Colors.Gray);
 
         public ItemsPanel()
         {

@@ -14,12 +14,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Memory;
 using CheckBox = System.Windows.Controls.CheckBox;
 using UserControl = System.Windows.Controls.UserControl;
 
-namespace Farplane.FFX.EditorPanels.Boosters
+namespace FarplaneCore.FFX.EditorPanels.Boosters
 {
     /// <summary>
     /// Interaction logic for BoostersPanel.xaml

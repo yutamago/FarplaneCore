@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farplane.FFX.Values
+namespace FarplaneCore.FFX.Values
 {
     public class MonsterArenaData
     {

@@ -12,10 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
+using FarplaneCore.Common;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX2.EditorPanels
+namespace FarplaneCore.FFX2.EditorPanels
 {
     /// <summary>
     /// Interaction logic for CreaturePanel.xaml
@@ -38,7 +38,7 @@ namespace Farplane.FFX2.EditorPanels
                 tabCreature.Name = "Creature" + i;
                 tabCreature.Header = "Creature " + i;
                 tabCreature.Content = _editors[i];
-                ControlsHelper.SetHeaderFontSize(tabCreature, 12);
+                HeaderedControlHelper.SetHeaderFontSize(tabCreature, 12);
                 TabCreatures.Items.Add(tabCreature);
             }
 

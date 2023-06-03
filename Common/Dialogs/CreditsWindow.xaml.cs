@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 
-namespace Farplane.Common.Dialogs
+namespace FarplaneCore.Common.Dialogs
 {
     /// <summary>
     /// Interaction logic for CreditsWindow.xaml

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Farplane.Memory;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.Data
+namespace FarplaneCore.FFX.Data
 {
     public class MonsterArena
     {

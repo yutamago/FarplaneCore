@@ -1,28 +1,28 @@
-﻿<UserControl x:Class="Farplane.FFX.EditorPanels.BlitzballPanel.BlitzballPanel"
+﻿<UserControl x:Class="FarplaneCore.FFX.EditorPanels.BlitzballPanel.BlitzballPanel"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:Farplane.FFX.EditorPanels.BlitzballPanel"
+             xmlns:local="clr-namespace:FarplaneCore.FFX.EditorPanels.BlitzballPanel"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              d:DesignHeight="510"
              d:DesignWidth="480"
              mc:Ignorable="d">
     <GroupBox Header="Blitzball">
         <TabControl>
-            <TabItem controls:ControlsHelper.HeaderFontSize="18" Header="League">
+            <TabItem controls:HeaderedControlHelper.HeaderFontSize="18" Header="League">
                 <local:BlitzballLeagueEditor x:Name="LeagueEditor" Margin="0" />
             </TabItem>
-            <TabItem controls:ControlsHelper.HeaderFontSize="18" Header="Tournament">
+            <TabItem controls:HeaderedControlHelper.HeaderFontSize="18" Header="Tournament">
                 <local:BlitzballTournamentEditor x:Name="TournamentEditor" Margin="0" />
             </TabItem>
-            <TabItem controls:ControlsHelper.HeaderFontSize="18" Header="Players">
+            <TabItem controls:HeaderedControlHelper.HeaderFontSize="18" Header="Players">
                 <local:BlitzballPlayerEditor x:Name="PlayerEditor" />
             </TabItem>
-            <TabItem controls:ControlsHelper.HeaderFontSize="18" Header="Teams">
+            <TabItem controls:HeaderedControlHelper.HeaderFontSize="18" Header="Teams">
                 <local:BlitzballTeamEditor x:Name="TeamEditor" />
             </TabItem>
-            <!-- <TabItem controls:ControlsHelper.HeaderFontSize="18" Header="Current Game">
+            <!-- <TabItem controls:HeaderedControlHelper.HeaderFontSize="18" Header="Current Game">
                 <local:BlitzballMatchPanel x:Name="MatchEditor" />
             </TabItem> -->
         </TabControl>

@@ -4,15 +4,16 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using Farplane.Common;
-using Farplane.Common.Controls;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using ControlzEx.Theming;
+using FarplaneCore.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.Common.Controls;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
 using MahApps.Metro;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.PartyPanel
+namespace FarplaneCore.FFX.EditorPanels.PartyPanel
 {
     /// <summary>
     /// Interaction logic for PartyAbilities.xaml
@@ -30,18 +31,18 @@ namespace Farplane.FFX.EditorPanels.PartyPanel
         private readonly Ability[] _bMagic = Ability.Abilities.Where(a => a.Type == AbilityType.BlackMagic).ToArray();
         private int _characterIndex = -1;
 
-        private static readonly Tuple<AppTheme, Accent> currentStyle = ThemeManager.DetectAppStyle(Application.Current);
+        private static readonly Theme currentStyle = ThemeManager.Current.DetectTheme(Application.Current);
 
         private readonly Brush _trueAbilityBrush =
-            new SolidColorBrush((Color) currentStyle.Item1.Resources["BlackColor"]);
+            new SolidColorBrush(Colors.Black);
 
-        private readonly Brush _falseAbilityBrush = new SolidColorBrush((Color) currentStyle.Item1.Resources["Gray2"]);
+        private readonly Brush _falseAbilityBrush = new SolidColorBrush(Colors.Gray);
 
         public PartyAbilities()
         {
             InitializeComponent();
             foreach (var tabItem in TabAbilities.Items)
-                ControlsHelper.SetHeaderFontSize((TabItem) tabItem, 14);
+                HeaderedControlHelper.SetHeaderFontSize((TabItem) tabItem, 14);
 
             TabSkills.Content = _gridSkill;
             TabSpecial.Content = _gridSpecial;

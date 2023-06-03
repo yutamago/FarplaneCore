@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Binarysharp.MemoryManagement;
 
-namespace Farplane
+namespace FarplaneCore
 {
     public static class LegacyMemoryReader
     {

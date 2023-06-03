@@ -13,12 +13,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common.Dialogs;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
+using FarplaneCore.Common.Dialogs;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.BlitzballPanel
+namespace FarplaneCore.FFX.EditorPanels.BlitzballPanel
 {
     /// <summary>
     /// Interaction logic for BlitzballGeneralEditor.xaml

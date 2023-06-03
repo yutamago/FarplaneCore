@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Farplane.Common;
-using Farplane.FFX.Values;
-using Farplane.Memory;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Values;
+using FarplaneCore.Memory;
 
-namespace Farplane.FFX.Data
+namespace FarplaneCore.FFX.Data
 {
     public static class Battle
     {

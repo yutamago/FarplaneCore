@@ -16,12 +16,12 @@ using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Farplane.FFX2;
-using Farplane.Memory;
-using Farplane.Properties;
+using FarplaneCore.FFX2;
+using FarplaneCore.Memory;
+using FarplaneCore.Properties;
 using MahApps.Metro.Controls;
 
-namespace Farplane.Common.Dialogs
+namespace FarplaneCore.Common.Dialogs
 {
     /// <summary>
     /// Interaction logic for ProcessSelectWindow.xaml

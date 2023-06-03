@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Farplane.FFX.EditorPanels.SphereGridPanel
+namespace FarplaneCore.FFX.EditorPanels.SphereGridPanel
 {
     /// <summary>
     /// Interaction logic for SphereGridPanel.xaml

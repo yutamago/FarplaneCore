@@ -12,12 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX.EditorPanels.Battle
+namespace FarplaneCore.FFX.EditorPanels.Battle
 {
     /// <summary>
     /// Interaction logic for BattlePanel.xaml
@@ -39,10 +39,10 @@ namespace Farplane.FFX.EditorPanels.Battle
             InitializeComponent();
 
             foreach (var tabItem in TabBattle.Items)
-                ControlsHelper.SetHeaderFontSize((UIElement) tabItem, 14);
+                HeaderedControlHelper.SetHeaderFontSize((UIElement) tabItem, 14);
 
             foreach (var tabItem in TabEntity.Items)
-                ControlsHelper.SetHeaderFontSize((UIElement) tabItem, 14);
+                HeaderedControlHelper.SetHeaderFontSize((UIElement) tabItem, 14);
 
             _canWriteData = true;
         }

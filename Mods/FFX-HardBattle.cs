@@ -1,13 +1,13 @@
-﻿//css_reference "D:\Dev\Farplane\Farplane\bin\Debug\Farplane.exe";
+﻿//css_reference "D:\Dev\Farplane\Farplane\bin\Debug\FarplaneCore.exe";
 using System;
 using System.Linq;
 using System.Threading;
 using System.Windows;
 
-using Farplane;
-using Farplane.Common;
-using Farplane.FarplaneMod;
-using Farplane.FFX;
+using FarplaneCore;
+using FarplaneCore.Common;
+using FarplaneCore.FarplaneMod;
+using FarplaneCore.FFX;
 using Farplane.FFX.Data;
 using Farplane.FFX.Values;
 using Farplane.Memory;

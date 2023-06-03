@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 
-namespace Farplane.FFX2
+namespace FarplaneCore.FFX2
 {
     /// <summary>
     /// Interaction logic for AbilitySlider.xaml

@@ -16,27 +16,27 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Farplane.FFX.EditorPanels;
-using Farplane.FFX.EditorPanels.Aeons;
-using Farplane.FFX.EditorPanels.Battle;
-using Farplane.FFX.EditorPanels.BlitzballPanel;
-using Farplane.FFX.EditorPanels.Debug;
-using Farplane.FFX.EditorPanels.Boosters;
-using Farplane.FFX.EditorPanels.GeneralPanel;
-using Farplane.FFX.EditorPanels.EquipmentPanel;
-using Farplane.FFX.EditorPanels.ItemsPanel;
-using Farplane.FFX.EditorPanels.MonsterArenaPanel;
-using Farplane.FFX.EditorPanels.PartyPanel;
-using Farplane.FFX.EditorPanels.SkillEditorPanel;
-using Farplane.FFX.EditorPanels.SphereGridPanel;
-using Farplane.Memory;
-using Farplane.Properties;
+using FarplaneCore.Properties;
+using FarplaneCore.FFX.EditorPanels;
+using FarplaneCore.FFX.EditorPanels.Aeons;
+using FarplaneCore.FFX.EditorPanels.Battle;
+using FarplaneCore.FFX.EditorPanels.BlitzballPanel;
+using FarplaneCore.FFX.EditorPanels.Boosters;
+using FarplaneCore.FFX.EditorPanels.Debug;
+using FarplaneCore.FFX.EditorPanels.EquipmentPanel;
+using FarplaneCore.FFX.EditorPanels.GeneralPanel;
+using FarplaneCore.FFX.EditorPanels.ItemsPanel;
+using FarplaneCore.FFX.EditorPanels.MonsterArenaPanel;
+using FarplaneCore.FFX.EditorPanels.PartyPanel;
+using FarplaneCore.FFX.EditorPanels.SkillEditorPanel;
+using FarplaneCore.FFX.EditorPanels.SphereGridPanel;
+using FarplaneCore.Memory;
 using MahApps.Metro.Controls;
 using MessageBox = System.Windows.MessageBox;
 using ThreadState = System.Threading.ThreadState;
 using TreeView = System.Windows.Controls.TreeView;
 
-namespace Farplane.FFX
+namespace FarplaneCore.FFX
 {
     /// <summary>
     /// Interaction logic for FFXEditor.xaml

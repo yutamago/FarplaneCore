@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Farplane.FFX.EditorPanels.BlitzballPanel
+namespace FarplaneCore.FFX.EditorPanels.BlitzballPanel
 {
     /// <summary>
     /// Interaction logic for BlitzballPanel.xaml

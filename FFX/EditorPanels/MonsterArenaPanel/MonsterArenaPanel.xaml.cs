@@ -2,11 +2,11 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using Farplane.Common;
-using Farplane.FFX.Data;
-using Farplane.FFX.Values;
+using FarplaneCore.Common;
+using FarplaneCore.FFX.Data;
+using FarplaneCore.FFX.Values;
 
-namespace Farplane.FFX.EditorPanels.MonsterArenaPanel
+namespace FarplaneCore.FFX.EditorPanels.MonsterArenaPanel
 {
     /// <summary>
     /// Interaction logic for MonsterArenaPanel.xaml

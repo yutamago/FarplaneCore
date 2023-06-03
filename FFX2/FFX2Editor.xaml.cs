@@ -14,13 +14,13 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Farplane.FFX2.EditorPanels;
-using Farplane.FFX2.EditorPanels.Party;
-using Farplane.Memory;
+using FarplaneCore.FFX2.EditorPanels;
+using FarplaneCore.FFX2.EditorPanels.Party;
+using FarplaneCore.Memory;
 using MahApps.Metro.Controls;
 using Image = System.Windows.Controls.Image;
 
-namespace Farplane.FFX2
+namespace FarplaneCore.FFX2
 {
     /// <summary>
     /// Interaction logic for FFX2Editor.xaml
